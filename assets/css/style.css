@@ -46,7 +46,7 @@ section {
     text-decoration: none;
 }
 
-.bt_purple{
+.bt_purple {
     padding: 4px 30px;
     color: var(--light);
     background-color: var(--prymary);
@@ -287,10 +287,39 @@ header nav {
     font-weight: 700;
 }
 
+
+
 .benefits h3 {
     color: var(--prymary);
 }
 
+.about h2 {
+    color: var(--prymary);
+    font-size: 44px;
+}
+
+.about h3 {
+    color: var(--prymary);
+    font-size: 28px;
+    padding-bottom: 10%;
+}
+
+.about p {
+    line-height: 200%
+}
+
+.about_img {
+    position: relative;
+}
+
+.fa-quote-left {
+    position: absolute;
+    color: var(--prymary);
+    right: 0%;
+    top: 10%;
+    font-size: 80px;
+
+}
 
 
 
