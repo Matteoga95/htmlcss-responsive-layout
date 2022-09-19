@@ -321,6 +321,43 @@ header nav {
 
 }
 
+.call_to_action {
+    color: var(--light);
+    text-align: center;
+    background-color: var(--prymary);
+}
+
+.call_to_action h5 {
+    font-weight: 200;
+}
+
+.call_to_action h3 {
+    font-weight: 700;
+    font-size: 28PX;
+}
+
+.call_to_action h6 {
+    margin-top: 20%;
+}
+
+.call_to_action a {
+
+    color: var(--light);
+}
+
+.call_to_action h2 {
+    font-weight: 700;
+    font-size: 72PX;
+    color: var(--accent);
+}
+
+.call_to_action .bt_white {
+    color: var(--prymary);
+    font-weight: bold;
+    padding-left: 20%;
+    padding-right: 20%;
+
+}
 
 
 /*#endregion main */
