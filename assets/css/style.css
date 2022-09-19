@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --prymary: #9793e5;
+    --secondary: #0084fd;
+    --secondary-soft: #b4ddfe;
+    --accent: #fdc15f;
+    --darker: #000;
+    --dark: #323332;
+    --light: #fffefe;
+}
