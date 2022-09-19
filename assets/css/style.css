@@ -362,6 +362,28 @@ header nav {
 
 /*#endregion main */
 
+/* #region footer */
+
+footer {
+    background-color: var(--dark);
+    text-align: center;
+
+    color: var(--light);
+    padding-bottom: 5%;
+}
+
+footer a {
+    color: var(--prymary);
+
+}
+
+footer p {
+    padding-top: 7%;
+}
+
+/* #endregion footer */
+
+
 /* responsive grid */
 
 @media screen and (min-width: 768px) {
