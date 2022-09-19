@@ -13,3 +13,66 @@
     --dark: #323332;
     --light: #fffefe;
 }
+
+/* utilities */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.bt_white {
+    padding: 8px;
+    color: var(--darker);
+    background-color: var(--light);
+    border-radius: 15px;
+    text-decoration: none;
+}
+
+
+/*#region header */
+
+header {
+    background-color: var(--secondary);
+
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.main_menu li {
+    list-style: none;
+    color: var(--light);
+    padding: 0 1rem;
+    display: none;
+}
+
+.mobile_menu {
+    color: var(--light);
+}
+
+
+
+/* #endregion header */
+
+
+
+/* responsive grid */
+@media screen and (min-width: 1200px) {
+
+    /*#region header */
+    .mobile_menu {
+        display: none;
+    }
+
+    .main_menu li {
+        display: inline;
+    }
+
+    /* #endregion header */
+
+}
