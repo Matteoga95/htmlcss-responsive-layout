@@ -14,17 +14,18 @@
     --light: #fffefe;
 }
 
-h2{
+h2 {
     padding: 1rem 0;
 }
 
-p{
+p {
     padding: 1rem 0;
 }
 
-section{
-    padding:  2rem 0;
+section {
+    padding: 2rem 0;
 }
+
 /* utilities */
 
 .bt_white {
@@ -52,25 +53,33 @@ section{
 .row {
     display: flex;
     flex-wrap: wrap;
-  gap: 1rem;
+    gap: 1rem;
     justify-content: space-between;
-  margin: 0 -1rem;
+    margin: 0 -1rem;
 
 }
 
 [class^="col_"] {
-  
-padding: 1rem;
+
+    padding: 1rem;
 }
 
-.phone{
+.phone {
     text-align: center;
     width: 50%;
 }
 
-.f_white{
+.f_white {
     color: var(--light);
 }
+
+.image-crop {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
 /* #region colonne */
 .col_1 {
     width: calc(100% /12 *1);
@@ -168,42 +177,45 @@ header nav {
 /*#region main */
 
 
-.demo h2{
+.demo h2 {
     color: var(--secondary);
     font-weight: 700;
 }
 
-.demo [class^="col_"]{
-background-color: var(--secondary-soft);
-border-radius: 10px;
+.demo [class^="col_"] {
+    background-color: var(--secondary-soft);
+    border-radius: 10px;
 }
-.demo img{
+
+.demo img {
     width: 80%;
 }
 
-.demo .col_md_4 i{
+.demo .col_md_4 i {
     color: var(--secondary);
     font-size: 600%;
 }
 
 .demo .col_md_4 {
     text-align: center;
-  
+
 }
 
-.planning{
+.planning {
     background-color: var(--prymary);
 }
-.planning img{
+
+.planning img {
     width: 50%;
 }
-.planning h2{
-   
+
+.planning h2 {
+
     font-weight: 700;
 }
 
 
-.planning_card{
+.planning_card {
     margin-top: 3rem;
     padding: 1rem;
     border-radius: 20px;
@@ -212,10 +224,40 @@ border-radius: 10px;
     text-align: center;
 }
 
-.fa-circle-arrow-down{
+.fa-circle-arrow-down {
     font-size: xx-large;
     color: var(--prymary);
 }
+
+
+.partner {
+   
+    background-color: var(--prymary);
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 1rem;
+    
+}
+
+.partners .heading{
+    text-align: center;
+}
+
+.partners h2{
+    color: var(--prymary);
+}
+
+.avatar {
+    aspect-ratio: 1 / 1;
+    height: 70%;
+    width: 70%;
+margin: auto;
+}
+.bio {
+    padding: 2rem;
+    color: var(--light);
+}
+
 
 
 
@@ -231,8 +273,25 @@ border-radius: 10px;
     .col_md_8 {
         width: calc(100% / 12 * 8 - 1rem);
     }
+
     .col_md_6 {
         width: calc(50% - 1rem);
+    }
+
+    .partner {
+        display: flex;
+        background-color: var(--prymary);
+        padding: 1rem;
+        border-radius: 30px;
+        margin-bottom: 1rem;
+    }
+    
+    .avatar {
+        aspect-ratio: 1 / 1;
+        flex-shrink: 0;
+        height: 20%;
+        width: 20%;
+    
     }
 }
 
